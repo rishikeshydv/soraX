@@ -48,11 +48,12 @@ To get started with SoraX locally for development purposes, follow these steps:
 
 ## Progress
 
-[ ]Authentication/Authorization
-[ ]FrontEnd
-[x]Firebase Initialize
-[ ]Realtime Firebase
-[ ]Prompt Generator
-[ ]Video Generator
-[ ]Load Balancer for Prompts
-[x]Video Merger
+- [ ] Authentication/Authorization
+- [ ] FrontEnd
+- [x] Firebase Initialize
+- [ ] Realtime Firebase
+- [ ] Prompt Generator
+- [ ] Video Generator
+- [ ] Load Balancer for Prompts
+- [x] Video Merger
+
