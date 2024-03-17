@@ -45,3 +45,14 @@ To get started with SoraX locally for development purposes, follow these steps:
 3. **Configure Environment Variables**: Set up environment variables for Firebase and Stripe integration.
 4. **Run Backend**: Start the backend server using the provided scripts.
 5. **Run Frontend**: Launch the frontend application to interact with SoraX.
+
+## Progress
+
+[ ]Authentication/Authorization
+[ ]FrontEnd
+[x]Firebase Initialize
+[ ]Realtime Firebase
+[ ]Prompt Generator
+[ ]Video Generator
+[ ]Load Balancer for Prompts
+[x]Video Merger
