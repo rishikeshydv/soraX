@@ -24,7 +24,9 @@ class VideoJoiner:
         #API control
         #if all the prompts are done, run the flask app
         if self.count == 0:
-            app.run(debug=True)
+            app.run(debug=True, threaded=True)
+            return "Flask app is running"
+
         #helper function API
         @app.route('/get_video')
         def get_video(video):
@@ -54,3 +56,8 @@ class VideoJoiner:
 
         # Return the path to the final output file
         return final_output
+    
+
+# Example usage
+video_joiner = VideoJoiner("video1.mp4", 1, False)
+print(video_joiner.video_merger())
